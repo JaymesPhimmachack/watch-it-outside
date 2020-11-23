@@ -1,0 +1,60 @@
+.header {
+  background-image: url("/film-festival/img/boston.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay-background {
+  background-color: #333;
+  height: 100%;
+  width: 100%;
+  opacity: 0.45;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.card-img-top {
+  height: 400px;
+}
+
+.card-body {
+  height: 550px;
+}
+
+.height-1 {
+  height: 300px;
+}
+
+.height-n-1 {
+  height: 230px;
+}
+
+@media screen and (max-width: 485px) {
+  .font-weight-bold {
+    font-weight: 600 !important;
+  }
+  .display-1 {
+    font-size: 5rem;
+  }
+  .display-3 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .card-body {
+    height: 650px;
+  }
+  .height-md-2 {
+    height: 430px;
+  }
+  .height-md-n-2 {
+    height: 330px;
+  }
+  .height-md-3 {
+    height: 460px;
+  }
+}

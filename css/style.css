@@ -1,5 +1,5 @@
 .header {
-  background-image: url("/film-festival/img/boston.jpg");
+  background-image: url("../img/boston.jpg");
   height: 500px;
   background-size: cover;
   background-position: center;
